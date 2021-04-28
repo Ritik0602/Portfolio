@@ -724,7 +724,8 @@ footer {
 
 @media (max-width: 730px) {
     .home {
-        background: none;
+        background: url(images/bg.png);
+        background-size: 100%;
     }
 
     .home .max-width {
