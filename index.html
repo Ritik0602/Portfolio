@@ -9,19 +9,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
-        <!-- FontAwesome Icons -->
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+        <!-- fontawesome icons -->
+        <link rel="stylesheet" href="fontawesome-5.15.3/css/all.min.css">
 
         <!-- Custom Style -->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
+        <!-- Pre-loader -->
+        <div class="loader-wrapper">
+            <img class="loader" src="images/load.png" alt="">
+            <!-- <i class="loader fas fa-volleyball-ball"></i> -->
+        </div>
+
+        <!-- scroll-up button -->
         <div class="scroll-up-btn">
             <i class="fas fa-angle-up"></i>
         </div>
@@ -94,7 +101,7 @@
 
                     <div class="card">
                         <div class="box">
-                          <img class="jigsaw-img interest-img" src="https://media.giphy.com/media/h4CcRfKWP7nHXEaFXr/giphy.gif" alt="">
+                          <iframe class="jigsaw-img interest-img" src="https://giphy.com/embed/h4CcRfKWP7nHXEaFXr" class="giphy-embed"></iframe>
                           <h3>Problem Solving</h3>
                           <p>Solving problems is what programmers do the best, and I love doing it too!</p>
                         </div>

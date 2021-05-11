@@ -1,4 +1,9 @@
 
+
+$(window).on('load', ()=> {
+    $('.loader').slideUp();
+    $('.loader-wrapper').fadeOut();
+})
 $(document).ready(() => {
 
     $("#home").css("opacity", "1");
